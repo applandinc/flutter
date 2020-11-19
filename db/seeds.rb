@@ -1,4 +1,4 @@
-# Create a main sample user.
+# Create a main Flutter user.
 User.create!(name:  "Example User",
              email: "example@railstutorial.org",
              password:              "foobar",

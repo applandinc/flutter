@@ -1,8 +1,8 @@
-# Ruby on Rails Tutorial sample application
+# Flutter
 
 ## Reference implementation
 
-This is the reference implementation of the sample application from
+Flutter is a fork of the reference implementation of the Rails Sample App from
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
 (6th Edition)
@@ -10,7 +10,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 
 ## License
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
+All source code in Flutter the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
 
@@ -19,8 +19,8 @@ is available jointly under the MIT License and the Beerware License. See
 To get started with the app, first clone the repo and `cd` into the directory:
 
 ```
-$ git clone https://github.com/mhartl/sample_app_6th_ed.git
-$ cd sample_app_6th_ed
+$ git clone https://github.com/applandinc/flutter.git
+$ cd flutter
 ```
 
 Then install the needed packages (while skipping any Ruby gems needed only in production):
@@ -55,7 +55,7 @@ You can then register a new user or log in as the sample administrative user wit
 
 ## Deploying
 
-To deploy the sample app to production, you’ll need a Heroku account as discussed [Section 1.4, “Deploying”](https://www.railstutorial.org/book/beginning#sec-deploying).
+To deploy Flutter to production, you’ll need a Heroku account as discussed [Section 1.4, “Deploying”](https://www.railstutorial.org/book/beginning#sec-deploying).
 
 The full production app includes several advanced features, including sending email with [SendGrid](https://sendgrid.com/) and storing uploaded images with [AWS S3](https://aws.amazon.com/s3/). As a result, deploying the full sample app can be rather challenging. The suggested method for testing a deployment is to use the branch for Chapter 10 (“Updating users”), which doesn’t require more advanced settings but still includes sample users.
 
@@ -69,7 +69,7 @@ $ heroku run rails db:migrate
 $ heroku run rails db:seed
 ```
 
-Visiting the URL returned by the original `heroku create` should now show you the sample app running in production. As with the local version, you can then register a new user or log in as the sample administrative user with the email `example@railstutorial.org` and password `foobar`.
+Visiting the URL returned by the original `heroku create` should now show you Flutter running in production. As with the local version, you can then register a new user or log in as the sample administrative user with the email `example@railstutorial.org` and password `foobar`.
 
 ## Branches
 
